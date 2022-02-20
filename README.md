@@ -6,7 +6,7 @@ I have a discord server: https://discord.gg/DvmMgvn5ZB, it's the best way report
 
 If you want to support my work and keep me motivated to 
 continue to work on projects like this then maybe consider gifting me some 
-ko-fi here: https://ko-fi.com/fieryhenry)
+ko-fi here: https://ko-fi.com/fieryhenry
 
 ## How To Use
 
@@ -15,10 +15,12 @@ ko-fi here: https://ko-fi.com/fieryhenry)
 2. Either clone the repository or go to [releases](https://github.com/fieryhenry/Battle-Cats-Hacking-Scripts/releases) to download it
 
 3. Have the frida-server running on your device
+   
+   The following steps are done on your pc, not android device:
 
-4. cd into the scripts directory in a terminal
+4. cd into the scripts directory in a terminal / shift+right click -> powershell window here
 
-5. Use python to run the desired script - some scripts may only work with an x86 system architecture
+5. Use python to run the desired script - some scripts may only work with an x86 system architecture as that's the one I have reverse engineered the most
 
 6. Enter your game version and do what you want
 
