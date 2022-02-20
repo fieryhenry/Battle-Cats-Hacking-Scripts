@@ -33,19 +33,30 @@ def create_script(offset, session, function_calls, return_type, perameters):
     script = session.create_script(f"let f = new NativeFunction(Module.findBaseAddress('libnative-lib.so').add({offset}), '{return_type}', {perameters});\n{function_calls}")
     script.load()
 
+def find_package_name(game_version):
+    output = str(subprocess.run(f"adb shell ls /data/app/", capture_output=True).stdout)
+    index = output.find(f"jp.co.ponos.battlecats{game_version}")
+    return output[index:index+24+len(game_version)]
+
+def find_architecture(package_name):
+    output = subprocess.run(f"adb shell ls /data/app/{package_name}/lib/", capture_output=True).stdout
+    return str(output)[2:-5]
+
 def pull_file():
     game_version = input("What game version are you running (e.g: en, jp, kr, tw):")
     if game_version == "jp":
         game_version = ""
     
-    return_code = adb_pull(f"jp.co.ponos.battlecats{game_version}-2", "x86")
+    package_name = find_package_name(game_version)
+    architecture = find_architecture(package_name)
 
-    if return_code == 1:
-        return_code = adb_pull(f"jp.co.ponos.battlecats{game_version}-1", "x86")
-
+    print("Loading libnative-lib.so file...")
+    
+    return_code = adb_pull(package_name, architecture)
     if return_code == 1:
         print("Error, libnative-lib.so file not found")
         exit()
+    return architecture
 
 
 def validate_int(input):

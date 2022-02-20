@@ -25,11 +25,21 @@ def get_items():
         output += helper.create_function_calls([id, amount, 0])
     return output
 
-def find_offset():
-    condtions = [0x0F, 0xB6, 0xF5, 0xC1, 0xE6, 0x18, 0x0F, 0xB6, 0xCE, 0xC1, 0xE1, 0x10,
+def find_offset(architecture):
+    condtions_x86 = [0x0F, 0xB6, 0xF5, 0xC1, 0xE6, 0x18, 0x0F, 0xB6, 0xCE, 0xC1, 0xE1, 0x10,
 	0x0F, 0xB6, 0xD2, 0xC1, 0xE2, 0x08, 0x0F, 0xB6, 0x44, 0x24, 0x17, 0x09,
 	0xD0]
-    return helper.find_offset(condtions, - 141)
+
+    condtions_x86_64 = [0x0F, 0xB6, 0xC3, 0xC1, 0xE0, 0x18, 0x0F, 0xB6, 0xC9, 0xC1, 0xE1, 0x10,
+	0x0F, 0xB6, 0xD2, 0xC1, 0xE2, 0x08, 0x40, 0x0F, 0xB6, 0xF6, 0x09, 0xD6,
+	0x09, 0xCE, 0x09, 0xC6, 0xEB, 0x16, 0x89, 0xDF]
+
+    offset = -1
+    if architecture == "x86":
+        offset = helper.find_offset(condtions_x86, - 141)
+    elif architecture == "x86_64":
+        offset = helper.find_offset(condtions_x86_64, -134)
+    return offset
 
 def main_script(offset, session):
     items = get_items()
@@ -43,11 +53,11 @@ def main_script(offset, session):
     if user_input != "exit":
         main_script(offset, session)
 def main():
-    print("Currently this script only works with x86 architecture")
-    helper.pull_file()
+    print("Currently this script only works with x86 and possibly x86_64 architecture")
+    architecture = helper.pull_file()
 
     print("Finding function offset...")
-    offset = find_offset()
+    offset = find_offset(architecture)
 
     print("Creating session...")
     session = helper.create_session()
