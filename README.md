@@ -12,13 +12,13 @@ ko-fi here: https://ko-fi.com/fieryhenry
 
 1. Follow the guide on the frida website to get your frida-server running on your device: https://frida.re/docs/android/
 
-2. Either clone the repository or go to [releases](https://github.com/fieryhenry/Battle-Cats-Hacking-Scripts/releases) to download it
+2. Clone the repository: https://github.com/fieryhenry/Battle-Cats-Hacking-Scripts/archive/refs/heads/master.zip
 
 3. Have the frida-server running on your device
    
    The following steps are done on your pc, not android device:
 
-4. cd into the scripts directory in a terminal or shift+right click -> powershell window here
+4. cd into the scripts directory in a terminal / shift+right click -> powershell window here
 
 5. Use python to run the desired script - some scripts may only work with an x86 system architecture as that's the one I have reverse engineered the most
 
