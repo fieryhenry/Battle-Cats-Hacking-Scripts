@@ -18,7 +18,7 @@ ko-fi here: https://ko-fi.com/fieryhenry
    
    The following steps are done on your pc, not android device:
 
-4. cd into the scripts directory in a terminal / shift+right click -> powershell window here
+4. cd into the scripts directory in a terminal or shift+right click -> powershell window here
 
 5. Use python to run the desired script - some scripts may only work with an x86 system architecture as that's the one I have reverse engineered the most
 
