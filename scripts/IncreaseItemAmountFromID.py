@@ -34,11 +34,19 @@ def find_offset(architecture):
 	0x0F, 0xB6, 0xD2, 0xC1, 0xE2, 0x08, 0x40, 0x0F, 0xB6, 0xF6, 0x09, 0xD6,
 	0x09, 0xCE, 0x09, 0xC6, 0xEB, 0x16, 0x89, 0xDF]
 
+    condtions_arm64_v8a = [0x48, 0x01, 0x09, 0x4A, 0x89, 0x01, 0x0B, 0x4A, 0xCA, 0x01, 0x0D, 0x4A,
+	0x28, 0x1D, 0x18, 0x33, 0x0B, 0x02, 0x0F, 0x4A, 0x48, 0x1D, 0x10, 0x33,
+	0x68, 0x1D, 0x08, 0x33, 0x07, 0x00, 0x00, 0x14, 0xE0, 0x03, 0x16, 0x2A]
+
     offset = -1
     if architecture == "x86":
         offset = helper.find_offset(condtions_x86, - 141)
     elif architecture == "x86_64":
         offset = helper.find_offset(condtions_x86_64, -134)
+    elif architecture == "arm64-v8a":
+        offset = helper.find_offset(condtions_arm64_v8a, -220)
+    else:
+        print("Sorry your architecture is not currently supported")
     return offset
 
 def main_script(offset, session):
@@ -53,7 +61,7 @@ def main_script(offset, session):
     if user_input != "exit":
         main_script(offset, session)
 def main():
-    print("Currently this script only works with x86 and possibly x86_64 architecture")
+    print("Currently this script only works with x86 and possibly x86_64, arm64-v8a architectures")
     architecture = helper.pull_file()
 
     print("Finding function offset...")
