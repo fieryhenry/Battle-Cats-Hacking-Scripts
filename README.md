@@ -12,6 +12,10 @@ ko-fi here: https://ko-fi.com/fieryhenry
 
 A list of item ids can be found [here](https://github.com/fieryhenry/Battle-Cats-Hacking-Scripts/blob/master/ItemIds.txt)
 
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/3qnLTXabSt4" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
 1. Follow the guide on the frida website to get your frida-server running on your device: https://frida.re/docs/android/
 
 2. Clone the repository: https://github.com/fieryhenry/Battle-Cats-Hacking-Scripts/archive/refs/heads/master.zip
@@ -20,7 +24,7 @@ A list of item ids can be found [here](https://github.com/fieryhenry/Battle-Cats
    
    The following steps are done on your pc, not android device:
 
-4.  Install frida with  `pip install frida` in the terminal
+4. Install frida with  `pip install frida` in the terminal
 
 5. `cd` into the scripts directory in a terminal / shift+right click -> powershell window here
 
@@ -29,5 +33,3 @@ A list of item ids can be found [here](https://github.com/fieryhenry/Battle-Cats
 7. Enter your game version and do what you want
 
 8. If any item amounts or stats are modified you will need to go into another menu in game for it to save your changes - e.g the equip menu, upgrade menu, etc
-
-
