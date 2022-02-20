@@ -1,0 +1,165 @@
+0: Speed Up|Battle speed will be doubled|Tap the item while in battle|to toggle it on or off.|＠|
+1: Treasure Radar|100% Chance of Treasure.|Get a Superior Treasure or the |standard reward upon victory.|＠|
+2: Rich Cat|Your Worker Cat will start|the battle at MAX Level|＠||
+3: Cat CPU|Cat CPU will control your base|and fight for you. Don't expect much.|＠||
+4: Cat Jobs|Receive 1.5 times more experience|than usual upon stage clear.|＠||
+5: Sniper the Cat|Cat sniper provides cover fire and|pushes back enemies. Attack power is|proportional to your Cat Base's health.|＠|
+6: XP|Purchase XP to power up your Cat Units!|＠|＠||
+7: NP|＠||||
+8: dummy|＠||||
+9: dummy|＠||||
+10: 5000 XP|＠||||
+11: 10000 XP|＠||||
+12: 30000 XP|＠||||
+13: 50000 XP|＠||||
+14: 100000 XP|＠||||
+15: 200000 XP|＠||||
+16: 500000 XP|＠||||
+17: 1000000 XP|＠||||
+18: 2000000 XP|＠||||
+19: XP 500000|＠||||
+20: Cat Ticket|＠||||
+21: Rare Ticket|＠||||
+22: Cat Food|Used to purchase Items, XP and other goods.|＠|||
+23: Lucky Ticket|＠||||
+24: |＠||||
+25: |＠||||
+26: Lucky Ticket|＠||||
+27: Lucky Ticket|＠||||
+28: Lucky Ticket|＠||||
+29: Platinum Ticket|＠||||
+30: Purple Catfruit Seed|The seed of a mystical fruit that helps|certain Cats realize their True potential.|＠||
+31: Red Catfruit Seed|The seed of a mystical fruit that helps|certain Cats realize their True potential.|＠||
+32: Blue Catfruit Seed|The seed of a mystical fruit that helps|certain Cats realize their True potential.|＠||
+33: Green Catfruit Seed|The seed of a mystical fruit that helps|certain Cats realize their True potential.|＠||
+34: Yellow Catfruit Seed|The seed of a mystical fruit that helps|certain Cats realize their True potential.|＠||
+35: Purple Catfruit|A mystical fruit that helps certain|Cats realize their True potential.|＠||
+36: Red Catfruit|A mystical fruit that helps certain|Cats realize their True potential.|＠||
+37: Blue Catfruit|A mystical fruit that helps certain|Cats realize their True potential.|＠||
+38: Green Catfruit|A mystical fruit that helps certain|Cats realize their True potential.|＠||
+39: Yellow Catfruit|A mystical fruit that helps certain|Cats realize their True potential.|＠||
+40: Epic Catfruit|A mystical fruit that helps certain|Cats realize their True potential.|＠||
+41: Elder Catfruit Seed|The seed of a mystical fruit that helps|certain Cats realize their True potential.|＠||
+42: Elder Catfruit|A mystical fruit that helps certain|Cats realize their True potential.|＠||
+43: Epic Catfruit Seed|The seed of a mystical fruit that helps|certain Cats realize their True potential.|＠||
+44: Gold Catfruit|A mystical fruit that helps certain|Cats realize their True potential.|＠||
+45: Lucky Ticket|＠||||
+46: Lucky Ticket|＠||||
+47: Lucky Ticket|＠||||
+48: Lucky Ticket|＠||||
+49: Lucky Ticket|＠||||
+50: Catseye [Special]|Raise level cap for one Special Cat.|※Usable on Level 30 Cat Units.|＠||
+51: Catseye [Rare]|Raise level cap for one Rare Cat.|※Usable on Level 30 Cat Units.|＠||
+52: Catseye [Super Rare]|Raise level cap for one Super Rare Cat.|※Usable on Level 30 Cat Units.|＠||
+53: Catseye [Uber Rare]|Raise level cap for one Uber Rare Cat.|※Usable on Level 30 Cat Units.|＠||
+54: Catseye [Legend]|Raise level cap for any non-Normal Cat.|※Usable on Level 30 Cat Units.|＠||
+55: Catamin [A]|GAMATOTO Expedition length|will be shortened by 1 hour.|＠||
+56: Catamin [B]|GAMATOTO Expedition length|will be shortened by 3 hours.|＠||
+57: Catamin [C]|GAMATOTO Expedition length|will be shortened by 6 hours.|＠||
+58: |＠||||
+59: |＠||||
+60: Cat Cannon Attack|Increases Cat Cannon attack power.|But also increases recharge time...||＠|
+61: Cat Cannon Range|Increases Cat Cannon attack range.|||＠|
+62: Cat Cannon Charge|Decreases Cat Cannon recharge time.|||＠|
+63: Worker Cat Rate|Increases the Worker Cat's efficiency,|increasing rate of income.||＠|
+64: Worker Cat Wallet|Increases the Worker Cat's wallet,|increasing the upper limit of income.||＠|
+65: Base Defense|Increases the health of the Cat Base.|||＠|
+66: Research|Increases Cat production speed.|||＠|
+67: Accountant|Increases the money earned|when defeating an enemy.||＠|
+68: Study|Increases the amount of XP|received when clearing a stage.||＠|
+69: Cat Energy|Increases the max limit of Cat Energy.|You require Cat Energy to continue fighting.||＠|
+70: Cat Ally: Dummy 1|＠||||
+71: Cat Ally: Dummy 2|＠||||
+72: Cat Ally: Dummy 3|＠||||
+73: Cat Ally: Dummy 4|＠||||
+74: Cat Ally: Dummy 5|＠||||
+75: Lucky Ticket|＠||||
+76: Lucky Ticket|＠||||
+77: Lucky Ticket G|＠||||
+78: XP 100000|＠||||
+79: |＠||||
+80: XP|Purchase XP to power up your Cat Units!|＠|＠|＠|
+81: XP|Purchase XP to power up your Cat Units!|＠|＠|＠|
+82: XP|Purchase XP to power up your Cat Units!|＠|＠|＠|
+83: XP|Purchase XP to power up your Cat Units!|＠|＠|＠|
+84: XP|Purchase XP to power up your Cat Units!|＠|＠|＠|
+85: Bricks|Building materials for a mighty Cat Base.|＠|＠|＠|
+86: Feathers|Building materials for a mighty Cat Base.|＠|＠|＠|
+87: Coal|Building materials for a mighty Cat Base.|＠|＠|＠|
+88: Sprockets|Building materials for a mighty Cat Base.|＠|＠|＠|
+89: Gold|Building materials for a mighty Cat Base.|＠|＠|＠|
+90: Meteorite|Building materials for a mighty Cat Base.|＠|＠|＠|
+91: Beast Bones|Building materials for a mighty Cat Base.|＠|＠|＠|
+92: Engineers|Assistants needed to build a Cat Base.|＠|＠|＠|
+93: Lucky Ticket||||
+94: Lucky Ticket G||||
+95: Lucky Ticket G|＠|||
+96: Lucky Ticket G|＠|||
+97: Lucky Ticket G|＠|||
+98: Lucky Ticket G|＠|||
+99: Lucky Ticket|＠|||
+100: Lucky Ticket G|＠|||
+101: Lucky Ticket|＠|||
+102: Lucky Ticket G|＠|||
+103: Lucky Ticket G|＠|||
+104: Lucky Ticket|＠|||
+105: Leadership|＠|||
+106: Lucky Ticket G|＠|||
+107: Lucky Ticket|＠|||
+108: Lucky Ticket G|＠|||
+109: Lucky Ticket G|＠|||
+110: Lucky Ticket|＠|||
+111: |＠|||
+112: Lucky Ticket|＠|||
+113: Lucky Ticket G|＠|||
+114: Lucky Ticket G|＠|||
+115: Lucky Ticket G|＠|||
+116: Lucky Ticket|＠|||
+117: Lucky Ticket|＠|||
+118: Lucky Ticket G|＠|||
+119: Lucky Ticket G|＠|||
+120: Lucky Ticket G|＠|||
+121: Lucky Ticket G|＠|||
+122: Lucky Ticket|＠|||
+123: Restart Pack|＠|||
+124: Lucky Ticket G|＠|||
+125: Lucky Ticket G|＠|||
+126: Lucky Ticket|＠|||
+127: Lucky Ticket|＠|||
+128: Lucky Ticket G|＠
+129: Lucky Ticket G|＠
+130: Lucky Ticket G|＠
+131: Lucky Ticket G|＠
+132: Lucky Ticket|＠
+133: Lucky Ticket G|＠
+134: Lucky Ticket|＠
+135: Lucky Ticket G|＠
+136: Lucky Ticket|＠
+137: Bikkuriman Choco|＠
+138: Lucky Ticket G|＠
+139: Lucky Ticket|＠
+140: Ammonite|Building materials for a mighty Cat Base.|＠|＠|＠|
+141: Lucky Ticket G|＠
+142: Lucky Ticket G|＠
+143: Lucky Ticket|＠
+144: Lucky Ticket G|＠
+145: Legend Ticket |＠
+146: Lucky Ticket G|＠|||
+147: Lucky Ticket|＠|||
+148: Lucky Ticket|＠|||
+149: Lucky Ticket G|＠|||
+150: Lucky Ticket G|＠|||
+151: Endless Rich Cats for 3 hours|＠|||
+152: Endless Cat CPUs for 3 hours|＠|||
+153: Endless Sniper the Cats for 3 hours|＠|||
+154: Lucky Ticket G|＠|||
+155: Lucky Ticket|＠|||
+156: Lucky Ticket G|＠|||
+157: Platinum Shard|＠|||
+158: Legend Net|＠|||
+159: 5000 XP|＠|||
+160: Aku Catfruit Seed|The seed of a mystical fruit that helps certain|Cats realize their True potential.|＠|
+161: Aku Catfruit|A mystical fruit that helps certain|Cats realize their True potential.|＠|
+162: |＠|||
+163: |＠|||
+164: Gold Catfruit Seed|Seed of a mystical fruit that helps certain|Cats realize their True potential.|＠|
