@@ -20,12 +20,14 @@ A list of item ids can be found [here](https://github.com/fieryhenry/Battle-Cats
    
    The following steps are done on your pc, not android device:
 
-4. cd into the scripts directory in a terminal / shift+right click -> powershell window here
+4.  Install frida with  `pip install frida` in the terminal
 
-5. Use python to run the desired script - some scripts may only work with an x86 system architecture as that's the one I have reverse engineered the most
+5. `cd` into the scripts directory in a terminal / shift+right click -> powershell window here
 
-6. Enter your game version and do what you want
+6. Use python to run the desired script - some scripts may only work with an x86 system architecture as that's the one I have reverse engineered the most
 
-7. If any item amounts or stats are modified you will need to go into another menu in game for it to save your changes - e.g the equip menu, upgrade menu, etc
+7. Enter your game version and do what you want
+
+8. If any item amounts or stats are modified you will need to go into another menu in game for it to save your changes - e.g the equip menu, upgrade menu, etc
 
 
