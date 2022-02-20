@@ -12,9 +12,7 @@ ko-fi here: https://ko-fi.com/fieryhenry
 
 A list of item ids can be found [here](https://github.com/fieryhenry/Battle-Cats-Hacking-Scripts/blob/master/ItemIds.txt)
 
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/3qnLTXabSt4" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+Example video of IncreaseItemAmountFromID.py: https://www.youtube.com/watch?v=3qnLTXabSt4
 
 1. Follow the guide on the frida website to get your frida-server running on your device: https://frida.re/docs/android/
 
