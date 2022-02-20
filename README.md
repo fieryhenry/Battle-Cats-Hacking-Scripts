@@ -10,6 +10,8 @@ ko-fi here: https://ko-fi.com/fieryhenry
 
 ## How To Use
 
+A list of item ids can be found [here](https://github.com/fieryhenry/Battle-Cats-Hacking-Scripts/blob/master/ItemIds.txt)
+
 1. Follow the guide on the frida website to get your frida-server running on your device: https://frida.re/docs/android/
 
 2. Clone the repository: https://github.com/fieryhenry/Battle-Cats-Hacking-Scripts/archive/refs/heads/master.zip
