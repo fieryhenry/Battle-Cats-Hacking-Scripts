@@ -17,9 +17,12 @@ def find_offset(byte_conditons, end_offset):
 
     return index + end_offset
 
-def create_session():
+def create_session(game_version):
     try:
-        session = frida.get_usb_device(1).attach("The Battle Cats")
+        process_name = "The Battle Cats"
+        if game_version == "jp":
+            process_name = "にゃんこ大戦争"
+        session = frida.get_usb_device(1).attach(process_name)
     except frida.ServerNotRunningError:
         print("Please start the frida server")
         exit()
@@ -56,7 +59,8 @@ def pull_file():
     if return_code == 1:
         print("Error, libnative-lib.so file not found")
         exit()
-    return architecture
+    if game_version == "": game_version = "jp"
+    return [architecture, game_version]
 
 
 def validate_int(input):

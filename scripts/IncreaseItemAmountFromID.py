@@ -68,12 +68,15 @@ def main_script(offset, session):
         main_script(offset, session)
 def main():
     print("Warning architectures other than x86 have not been tested on this script, so they may not work")
-    architecture = helper.pull_file()
+    data = helper.pull_file()
+
+    architecture = data[0]
+    game_version = data[1]
 
     print("Finding function offset...")
     offset = find_offset(architecture)
 
     print("Creating session...")
-    session = helper.create_session()
+    session = helper.create_session(game_version)
     main_script(offset, session)
 main()
