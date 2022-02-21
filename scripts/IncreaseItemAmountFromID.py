@@ -1,5 +1,5 @@
 import sys
-sys.path.append('..')
+sys.path[0] += ('\..')
 import helper
 
 def get_items():
@@ -59,7 +59,7 @@ def main_script(offset, session):
     items = get_items()
 
     print("Loading script...")
-
+    print(offset)
     helper.call_native_function(offset, session, items, "void", "['int', 'int', 'int']")
 
     print("Success.\nYou need to enter another menu in game for your edits to save")

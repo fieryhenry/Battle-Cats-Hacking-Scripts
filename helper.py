@@ -2,7 +2,7 @@ import frida
 import os
 import subprocess
 
-def find_offset(byte_conditons, end_offset):
+def find_offset(byte_conditons, end_offset, multi=False):
     if not os.path.exists("../libnative-lib.so"):
         print("Error libnative-lib.so file not found")
         exit()
@@ -10,12 +10,18 @@ def find_offset(byte_conditons, end_offset):
 
     search = bytes(byte_conditons)
     index = lib.find(search)
+    indexes = []
+    while index > 0:
+        indexes.append(index + end_offset)
+        index = lib.find(search, index+1)
+            
 
-    if index < 0:
+    if not indexes:
         print("Error, address not found")
-        exit()    
+        exit()
 
-    return index + end_offset
+    if multi: return indexes
+    else: return indexes[0]
 
 def create_session(game_version):
     try:
@@ -104,5 +110,6 @@ def create_function_calls(perameters):
     output = "f("
     for perameter in perameters:
         output += f"{perameter}, "
+    output = output.strip(' ,')
     output += ");\n"
     return output
