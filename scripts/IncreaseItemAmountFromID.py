@@ -60,7 +60,7 @@ def main_script(offset, session):
 
     print("Loading script...")
 
-    helper.create_script(offset, session, items, "void", "['int', 'int', 'int']")
+    helper.call_native_function(offset, session, items, "void", "['int', 'int', 'int']")
 
     print("Success.\nYou need to enter another menu in game for your edits to save")
     user_input = input('Type "exit" to exit or press enter to edit more items:')

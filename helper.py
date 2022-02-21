@@ -32,8 +32,18 @@ def adb_pull(package_name, architecture):
     return_code = subprocess.run(f"adb pull {lib_path} ..", capture_output=True).returncode
     return return_code
 
-def create_script(offset, session, function_calls, return_type, perameters):
+def call_native_function(offset, session, function_calls, return_type, perameters):
     script = session.create_script(f"let f = new NativeFunction(Module.findBaseAddress('libnative-lib.so').add({offset}), '{return_type}', {perameters});\n{function_calls}")
+    script.load()
+
+def attach_interceptor_leave(offset, replace_val, session):
+    script = session.create_script("""
+    Interceptor.attach(Module.findBaseAddress('libnative-lib.so').add(""" + str(offset) + """), {
+        onLeave: function(retval){
+            retval.replace(""" + str(replace_val) + """)
+        }
+    })
+    """)
     script.load()
 
 def find_package_name(game_version):
