@@ -14,6 +14,8 @@ A list of item ids can be found [here](https://github.com/fieryhenry/Battle-Cats
 
 Example video of IncreaseItemAmountFromID.py: https://www.youtube.com/watch?v=3qnLTXabSt4
 
+Example video of HackMoney.py and HackRechargeTime.py: https://www.youtube.com/watch?v=ERB8GD9yBok
+
 1. Follow the guide on the frida website to get your frida-server running on your device: https://frida.re/docs/android/
 
 2. Clone the repository: https://github.com/fieryhenry/Battle-Cats-Hacking-Scripts/archive/refs/heads/master.zip
