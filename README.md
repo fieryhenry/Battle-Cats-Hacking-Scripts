@@ -27,6 +27,7 @@ Example video of IncreaseItemAmountFromID.py: https://www.youtube.com/watch?v=3q
 5. `cd` into the scripts directory in a terminal / shift+right click -> powershell window here
 
 6. Use python to run the desired script - some scripts may only work with an x86 system architecture as that's the one I have reverse engineered the most
+   If you get the error `ModuleNotFoundError: No module named 'helper'` then you haven't `cd` into the scripts directory
 
 7. Enter your game version and do what you want
 
