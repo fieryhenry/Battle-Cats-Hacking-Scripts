@@ -62,9 +62,9 @@ def get_cats():
             levels = get_plus_base(input(f"For cat {id}: Enter the base level followed by a \"+\" then the plus level, e.g 5+12. If you want to ignore the base level do +12, if you want to ignore the plus level do 5+:\n"))
             base = levels[0]
             plus = levels[1]
-        if base:
+        if base != "null":
             base_calls += helper.create_function_calls([id, base])
-        if plus:
+        if plus != "null":
             plus_calls += helper.create_function_calls([id, plus])
     return [base_calls, plus_calls]
 
