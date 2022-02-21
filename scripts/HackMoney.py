@@ -16,7 +16,9 @@ def find_offset(architecture):
 	0x00, 0x1D, 0x18, 0x33, 0xEA, 0x01, 0x0E, 0x4A, 0x20, 0x1D, 0x10, 0x33,
 	0x40, 0x1D, 0x08, 0x33, 0xC0, 0x03, 0x5F, 0xD6]
 
-    condtions_armeabi_v7a = []
+    condtions_armeabi_v7a = [0x02, 0x00, 0x20, 0xE0, 0x00, 0x04, 0x81, 0xE1, 0x03, 0x10, 0x24, 0xE0,
+	0x01, 0x08, 0x80, 0xE1, 0x0C, 0x10, 0x25, 0xE0, 0x01, 0x0C, 0x80, 0xE1,
+	0x30, 0x88, 0xBD, 0xE8]
 
     offset = -1
     if architecture == "x86":
@@ -24,9 +26,9 @@ def find_offset(architecture):
     elif architecture == "x86_64":
         offset = helper.find_offset(condtions_x86_64, - 26)
     elif architecture == "arm64-v8a":
-        offset = helper.find_offset(condtions_arm64_v8a, - 1)
+        offset = helper.find_offset(condtions_arm64_v8a, - 32)
     elif architecture == "armeabi-v7a":
-        offset = helper.find_offset(condtions_armeabi_v7a, - 1)
+        offset = helper.find_offset(condtions_armeabi_v7a, - 44)
     else:
         print("Error, your offset couldn't be searched for - please report his on discord or on github")
     return offset
